@@ -1,4 +1,4 @@
-import { Link, isPending } from "$houdini";
+import { isPending } from "$houdini";
 import { PageProps } from "./$types";
 
 export default function ({ ShowList }: PageProps) {
@@ -14,8 +14,8 @@ export default function ({ ShowList }: PageProps) {
             )}
           </h2>
           <div className="flex flex-row gap-1">
-            {genre.shows.edges.map((show) => {
-              if (isPending(show)) {
+            {genre.shows.edges.map(({ node }) => {
+              if (isPending(node)) {
                 return (
                   <a
                     href="#"
@@ -30,11 +30,11 @@ export default function ({ ShowList }: PageProps) {
 
               return (
                 <a
-                  href={`/shows/${show.id}`}
+                  href={`/shows/${node.id}`}
                   style={{ width: 233, height: 130 }}
-                  key={show.name}
+                  key={node.name}
                 >
-                  <img src={show.billboard.source} />
+                  <img src={node.billboard.source} />
                 </a>
               );
             })}
