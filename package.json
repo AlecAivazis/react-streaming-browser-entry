@@ -7,7 +7,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev --host 0.0.0.0",
-		"tw": "npx tailwindcss -i ./src/routes/styles.css -o ./dist/output.css --watch",
+		"tw": "npx tailwindcss -i ./src/routes/styles.css -o ./public/output.css --watch",
 		"build": "vite build"
 	},
 	"dependencies": {

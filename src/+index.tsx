@@ -6,7 +6,7 @@ export default function App({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="/dist/output.css" />
+        <link rel="stylesheet" href="/public/output.css" />
         <title>My App</title>
       </head>
       <body>
