@@ -48,14 +48,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: ^1.2.14
-    version: 1.2.14
+    specifier: ^1.2.17
+    version: 1.2.17
   houdini-adapter-cloudflare:
-    specifier: ^1.2.14
-    version: 1.2.14(graphql@15.8.0)
+    specifier: ^1.2.17
+    version: 1.2.17(graphql@15.8.0)
   houdini-react:
-    specifier: ^1.2.14
-    version: 1.2.14(react-dom@18.2.0)
+    specifier: ^1.2.17
+    version: 1.2.17(react-dom@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2118,15 +2118,15 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /houdini-adapter-cloudflare@1.2.14(graphql@15.8.0):
-    resolution: {integrity: sha512-yjX9OXrV5QTUXUXO6mdAFO2jFtzTcYF7lieVBVxXH7yCuB9wq56YXWNOrJroKmgageYdC8zUJFPAdKG7AXvrEA==}
+  /houdini-adapter-cloudflare@1.2.17(graphql@15.8.0):
+    resolution: {integrity: sha512-AwJjzOz4l17sfO1hU2UIguuFs/lG8ADsqBOJkfW2+hnuw46cFsXN0pi3ahZtfxjmT81XsF70uJs0d8hzNFSwGw==}
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.0
       '@types/react': 18.2.23
       '@types/react-dom': 18.0.10
       cookie: 0.5.0
       graphql-yoga: 4.0.4(graphql@15.8.0)
-      houdini: 1.2.14
+      houdini: 1.2.17
       itty-router: 4.0.23
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2135,8 +2135,8 @@ packages:
       - graphql
     dev: false
 
-  /houdini-react@1.2.14(react-dom@18.2.0):
-    resolution: {integrity: sha512-EmL/7AULSjeOYZo3dIutSID1RzSRWmjRYIk1woxridT4y8oKftBnZwsNuzrUzEkRLYTJh1ktEu7rmq9vFw50ww==}
+  /houdini-react@1.2.17(react-dom@18.2.0):
+    resolution: {integrity: sha512-1Rx/vdZJZc7CY6nUz2rr4SE3lwMgV6cFDriFhVhasVxPnG6grTtCeMRL+YxMbeSAcVNzbc/onFCk6ToE64ecgQ==}
     dependencies:
       '@babel/parser': 7.21.8
       '@babel/types': 7.21.5
@@ -2149,7 +2149,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.4(graphql@15.8.0)
-      houdini: 1.2.14
+      houdini: 1.2.17
       react: 18.2.0
       react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
       recast: 0.23.4
@@ -2160,8 +2160,8 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@1.2.14:
-    resolution: {integrity: sha512-UDtHqrbHAJfqwTDxxek5rTuiR6PnsFip4JaInyNaymCv2nesIaO+rE/lkysBbpfxfMSDYxlH8piky6YFVEdMOg==}
+  /houdini@1.2.17:
+    resolution: {integrity: sha512-KpviS34FseAeR1QlCtnohElNgqhcwBlxGVcCTUdQ0H4dovlcjH9JWMgxNvaXioxfz6TQPedUg3Qp8AupYTXSgA==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.21.8

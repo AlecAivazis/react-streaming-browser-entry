@@ -1,5 +1,3 @@
-import { Link } from "$houdini";
-
 import { PageProps } from "./$types";
 
 export default function ({ Session, ShowInfo }: PageProps) {
