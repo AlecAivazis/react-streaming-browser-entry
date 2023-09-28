@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A netl clnebuilt using the Houdini Router",
+	"description": "A netl lnebuilt using the Houdini Router",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
