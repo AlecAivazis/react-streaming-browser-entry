@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A netflix clone built using the Houdini Router",
+	"description": "A netlix clone built using the Houdini Router",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
