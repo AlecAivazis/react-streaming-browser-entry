@@ -12,13 +12,9 @@ export default function ({ Session, ShowInfo }: PageProps) {
             "linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent)",
         }}
       >
-        <Link
-          href="/"
-          style={{ color: "white" }}
-          className="ml-10 cursor-pointer"
-        >
+        <a href="/" style={{ color: "white" }} className="ml-10 cursor-pointer">
           Back
-        </Link>
+        </a>
         <img
           src={Session.viewer?.profile?.source}
           height={50}

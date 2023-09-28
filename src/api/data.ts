@@ -1,4 +1,23 @@
-export const genres = [
+type Genre = {
+  id: number;
+  name: string;
+};
+
+type Show = {
+  id: number;
+  name: string;
+  poster: {
+    source: string;
+  };
+  billboard: {
+    source: string;
+  };
+  description: string;
+  seasons: [1, 2, 3];
+  genres: Genre[];
+};
+
+export const genres: Record<number, Genre> = [
   { name: "Comedy", id: 1 },
   { name: "Drama", id: 2 },
   { name: "Action", id: 3 },
@@ -12,14 +31,14 @@ export const genres = [
   { name: "Horror", id: 13 },
   { name: "TalkShow", id: 14 },
 ].reduce(
-  (shows, show) => ({
-    ...shows,
-    [show.id]: show,
+  (genres, genre) => ({
+    ...genres,
+    [genre.id]: genre,
   }),
   {}
 );
 
-export const shows = [
+export const shows: Record<number, Show> = [
   {
     id: 1,
     name: "Ozark",
