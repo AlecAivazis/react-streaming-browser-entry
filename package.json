@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A net nebus tHouter",
+	"description": "A net nebustHouter",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
