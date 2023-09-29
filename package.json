@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A very ile fle splsh pa buld using Houdini",
+	"description": "A very ile flesplsh pa buld using Houdini",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
