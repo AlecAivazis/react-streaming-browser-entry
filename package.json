@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A netl nebutus tHoiRouter",
+	"description": "A netl nebutus tHoRouter",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
