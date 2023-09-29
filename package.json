@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "er",
+	"description": "A very simple netflex-like splash page build using Houdini",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
