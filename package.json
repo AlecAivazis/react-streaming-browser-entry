@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A very iple netflex-like splash pag build using Houdini",
+	"description": "A very ile netflex-like splash pag build using Houdini",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
