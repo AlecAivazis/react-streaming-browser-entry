@@ -2,7 +2,7 @@
 	"name": "example-react-netflix",
 	"private": true,
 	"version": "1.0.0",
-	"description": "asdfkoasjdfl;kajsd;flkjasd;lfkjas;dlkfjl;",
+	"description": "asdfkoasjdfl;kajsd;flkjasd;lfkjas;dlkfjl",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
