@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@emotion/react':
     specifier: ^11.10.8
@@ -51,14 +47,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: ^1.2.20
-    version: 1.2.20
+    specifier: ^1.2.25
+    version: 1.2.25
   houdini-adapter-cloudflare:
-    specifier: ^1.2.20
-    version: 1.2.20(graphql@15.8.0)
+    specifier: 0.0.0-20231008055552
+    version: 0.0.0-20231008055552(graphql@15.8.0)
   houdini-react:
-    specifier: ^1.2.20
-    version: 1.2.20(react-dom@18.2.0)
+    specifier: ^1.2.25
+    version: 1.2.25(react-dom@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2121,25 +2117,24 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /houdini-adapter-cloudflare@1.2.20(graphql@15.8.0):
-    resolution: {integrity: sha512-MhKCcvQpW03TrkoJ4J8O9bV54fNU/cLpScH6rI6DJ5LnXPnIONH3sKQ5LwXcxEM9LsugpgN0YY+NK2HiG67Uaw==}
+  /houdini-adapter-cloudflare@0.0.0-20231008055552(graphql@15.8.0):
+    resolution: {integrity: sha512-aDpPjKUN5gHEH6fscoPvm4Obv631svctJ2bETwjmHSFBlO/Q382Rcb7JUNTJfy5TX7H5Vd36/hfoWRxnoymJMg==}
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.0
       '@types/react': 18.2.23
       '@types/react-dom': 18.0.10
       cookie: 0.5.0
       graphql-yoga: 4.0.4(graphql@15.8.0)
-      houdini: 1.2.20
+      houdini: 0.0.0-20231008055552
       itty-router: 4.0.23
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - graphql
     dev: false
 
-  /houdini-react@1.2.20(react-dom@18.2.0):
-    resolution: {integrity: sha512-ZWR5ptGSzfGSpsRQG0LEcIWGM4A2vkPJ/FlR1FXX/cZJkouayfZ0UiBxExnEHz2rsCEpGgLuChZOAu8VJHMAVw==}
+  /houdini-react@1.2.25(react-dom@18.2.0):
+    resolution: {integrity: sha512-mBnpdTCS/FPaP3qH+Ag7iHSNJTZBEEGwc8Q6kc17D62u8aFsK3Mcpk8deufPY0VkqRwc4WeKLRe52L5r4frMmA==}
     dependencies:
       '@babel/parser': 7.21.8
       '@babel/types': 7.21.5
@@ -2152,7 +2147,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.4(graphql@15.8.0)
-      houdini: 1.2.20
+      houdini: 1.2.25
       react: 18.2.0
       react-streaming: 0.3.14(react-dom@18.2.0)(react@18.2.0)
       recast: 0.23.4
@@ -2163,8 +2158,38 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@1.2.20:
-    resolution: {integrity: sha512-jE34qXfx2Wxns1jZ+DYUgQUaY/lXMKOcsSkH7uMjmZefsBzzYAPlJpDyuOF/4rnOOkGgZo2kAzabLWXeJkOMvA==}
+  /houdini@0.0.0-20231008055552:
+    resolution: {integrity: sha512-GXUPwxZiH78T2NJOyjgAl4j55rGoxXU4l9V+hvLLoMMnGIK5AJtbpK7ZrISIH832PF1kbiscmXKU4cSDQBk/CA==}
+    hasBin: true
+    dependencies:
+      '@babel/parser': 7.21.8
+      '@clack/prompts': 0.6.3
+      '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
+      '@kitql/helper': 0.5.0
+      '@types/estree': 1.0.2
+      '@types/fs-extra': 9.0.13
+      '@types/micromatch': 4.0.3
+      '@ungap/structured-clone': 1.2.0
+      '@whatwg-node/server': 0.9.14
+      ast-types: 0.16.1
+      commander: 9.5.0
+      deepmerge: 4.3.1
+      estree-walker: 3.0.3
+      fs-extra: 10.1.0
+      glob: 8.1.0
+      graphql: 15.8.0
+      graphql-yoga: 4.0.4(graphql@15.8.0)
+      memfs: 3.5.3
+      micromatch: 4.0.5
+      minimatch: 5.1.6
+      node-fetch: 3.3.2
+      npx-import: 1.1.4
+      recast: 0.23.4
+      vite-plugin-watch-and-run: 1.1.3
+    dev: false
+
+  /houdini@1.2.25:
+    resolution: {integrity: sha512-L69g0zMhAABaQwNNzxKwQZsqC/23JiBaAgCvIuqXgQAjow7DPU+7b6oIdk9Qg9bSIV25+nLIHIYfot4OYPBDug==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.21.8
@@ -3243,3 +3268,7 @@ packages:
       y18n: 5.0.8
       yargs-parser: 20.2.9
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
