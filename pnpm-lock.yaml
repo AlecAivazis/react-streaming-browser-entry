@@ -47,14 +47,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20231012045431
-    version: 0.0.0-20231012045431
+    specifier: 0.0.0-20231012045939
+    version: 0.0.0-20231012045939
   houdini-adapter-cloudflare:
     specifier: 0.0.0-20231008055552
     version: 0.0.0-20231008055552(graphql@15.8.0)
   houdini-react:
-    specifier: 0.0.0-20231012045431
-    version: 0.0.0-20231012045431
+    specifier: 0.0.0-20231012045939
+    version: 0.0.0-20231012045939
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2159,7 +2159,7 @@ packages:
       '@types/react-dom': 18.2.13
       cookie: 0.5.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231012045431
+      houdini: 0.0.0-20231012045939
       itty-router: 4.0.23
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2167,8 +2167,8 @@ packages:
       - graphql
     dev: false
 
-  /houdini-react@0.0.0-20231012045431:
-    resolution: {integrity: sha512-FvOg6iOxVzhAnTWU9U4ApgZzJ26Sp6ebq2lvPM2F1XvMEIRMSZ89dys7j6DPrVT01/29EGWvrXrnuBs+NCWJ1Q==}
+  /houdini-react@0.0.0-20231012045939:
+    resolution: {integrity: sha512-dnzDMWii8Pr5VElH/vBaD5YWadVVjKBSvg2AG8QHO/K4gMljA6cgZHlUpKag53zPiWqGQzc6A3nGzvZG9QM/bA==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
@@ -2181,7 +2181,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231012045431
+      houdini: 0.0.0-20231012045939
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       recast: 0.23.4
@@ -2191,8 +2191,8 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20231012045431:
-    resolution: {integrity: sha512-tudvQf2Mbfs0ITHH7OCDhcjjFmauBytv07Bg37ECMf/s/WDkigZEL0DP3C/5Oc+VVfsGyWCFSl66Cxu29abB6A==}
+  /houdini@0.0.0-20231012045939:
+    resolution: {integrity: sha512-B9lAVOwkyC5pS0gbfDpXxFqHrc1F0FM3KPK8aw8Uh2pptFQh9FHpQcnMRJXneErqMl4wytE24dnItJ5oFR10hg==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.0
