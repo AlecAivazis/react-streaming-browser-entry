@@ -47,14 +47,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20231012054301
-    version: 0.0.0-20231012054301
+    specifier: 0.0.0-20231012055349
+    version: 0.0.0-20231012055349
   houdini-adapter-cloudflare:
-    specifier: 0.0.0-20231012054301
-    version: 0.0.0-20231012054301(graphql@15.8.0)
+    specifier: 0.0.0-20231012055349
+    version: 0.0.0-20231012055349(graphql@15.8.0)
   houdini-react:
-    specifier: 0.0.0-20231012054301
-    version: 0.0.0-20231012054301
+    specifier: 0.0.0-20231012055349
+    version: 0.0.0-20231012055349
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2151,15 +2151,15 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /houdini-adapter-cloudflare@0.0.0-20231012054301(graphql@15.8.0):
-    resolution: {integrity: sha512-ardR2kPSSFUcmLmpxn5iLfsRfB6U9/KReufPYpQDOjr+ZaFGlr+Y+YrGPNMlzUoaG57ys7a4dpM+lCukBtBw6Q==}
+  /houdini-adapter-cloudflare@0.0.0-20231012055349(graphql@15.8.0):
+    resolution: {integrity: sha512-f2jaIWDM/W0UxK+uABqZDphEEvXb0hmaUQ3EnoMajC65C41fWm9xRa1ExTGPd0iT/qeOkTgO6dNvRymAIrK5nQ==}
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.0
       '@types/react': 18.2.28
       '@types/react-dom': 18.2.13
       cookie: 0.5.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231012054301
+      houdini: 0.0.0-20231012055349
       itty-router: 4.0.23
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2167,8 +2167,8 @@ packages:
       - graphql
     dev: false
 
-  /houdini-react@0.0.0-20231012054301:
-    resolution: {integrity: sha512-5MSqweFSEgs2/tJLD2zZmagxH4kr5fMwuk8J9CLNfLXx9UBYpjZGcqnIFMcHvyI/aB2vzPgmdmV3znI4XGLNlw==}
+  /houdini-react@0.0.0-20231012055349:
+    resolution: {integrity: sha512-b2aOqEE9okcASWyYC9DcIO3+J5XSPD3gvDpXw5MfY1+dyNpQqmr7Jxinj+J2dSzzGA71PWBNvVBxtn1YqLPTxg==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
@@ -2181,7 +2181,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231012054301
+      houdini: 0.0.0-20231012055349
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       recast: 0.23.4
@@ -2191,8 +2191,8 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20231012054301:
-    resolution: {integrity: sha512-wj6DWb3ifgiGwDB54FjpEL6uYg4EerJBExZWDo1lBlZVCVQ/rVYeLx7GLrVOS+ubFmLjz/tPNE6r+kzccKnxrw==}
+  /houdini@0.0.0-20231012055349:
+    resolution: {integrity: sha512-1kCHQooV+hL/2JBEywR7Ojb3698tNS7f8MToeW/Mrs3aV6Ic4IFOwlTq5N5/+AS6XOiI5umiM7h4Nz01bkpVqA==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.0
