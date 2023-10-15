@@ -47,14 +47,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20231012061641
-    version: 0.0.0-20231012061641
-  houdini-adapter-cloudflare:
-    specifier: 0.0.0-20231012060627
-    version: 0.0.0-20231012060627(graphql@15.8.0)
+    specifier: 0.0.0-20231015042531
+    version: 0.0.0-20231015042531
+  houdini-adapter-auto:
+    specifier: 0.0.0-20231015042531
+    version: 0.0.0-20231015042531
   houdini-react:
-    specifier: 0.0.0-20231012061641
-    version: 0.0.0-20231012061641
+    specifier: 0.0.0-20231015042531
+    version: 0.0.0-20231015042531
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -336,12 +336,6 @@ packages:
     dev: false
     bundledDependencies:
       - is-unicode-supported
-
-  /@cloudflare/kv-asset-handler@0.3.0:
-    resolution: {integrity: sha512-9CB/MKf/wdvbfkUdfrj+OkEwZ5b7rws0eogJ4293h+7b6KX5toPwym+VQKmILafNB9YiehqY0DlNrDcDhdWHSQ==}
-    dependencies:
-      mime: 3.0.0
-    dev: false
 
   /@emotion/babel-plugin@11.11.0:
     resolution: {integrity: sha512-m4HEDZleaaCH+XgDDsPF15Ht6wTLsgDTeR3WYj9Q/k76JtWhrJjcP4+/XlG8LGT/Rol9qUfOIztXeA84ATpqPQ==}
@@ -2151,24 +2145,15 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /houdini-adapter-cloudflare@0.0.0-20231012060627(graphql@15.8.0):
-    resolution: {integrity: sha512-2utHNHIHq625xg03rB9FDUTwU8OLmvMQjBjhruoxyeDSUYDwqL7NyPTpcaf/4ER05DTUuUMjQC+9E/WhmeWgUQ==}
+  /houdini-adapter-auto@0.0.0-20231015042531:
+    resolution: {integrity: sha512-d53CsIY9FH5VxWHAoJq6DoXHFPfVPqkA0jIRM9+jJBluLeG8qI96gnIqAeloH98Qy6ZI25l7vqLvaU8eY5naMQ==}
     dependencies:
-      '@cloudflare/kv-asset-handler': 0.3.0
-      '@types/react': 18.2.28
-      '@types/react-dom': 18.2.13
-      cookie: 0.5.0
-      graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231012061641
-      itty-router: 4.0.23
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    transitivePeerDependencies:
-      - graphql
+      houdini: 0.0.0-20231015042531
+      import-meta-resolve: 3.0.0
     dev: false
 
-  /houdini-react@0.0.0-20231012061641:
-    resolution: {integrity: sha512-xN7tnKVIafjUgkGeFY1SflRSbcap6ZYeNzVEyJ/82V5RXJHwidimA7ukTPPcHFOV5uCdgLHUzPkx8yAqZ3GJFw==}
+  /houdini-react@0.0.0-20231015042531:
+    resolution: {integrity: sha512-0E9jq6e6HUDjT6GHg0mSjBdgkwvF2ONjBm6ByZzRJgwLG4zzp+lnjPdVaah9JydtY/OSVBa3F/S3Bk/pAznm6g==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
@@ -2181,7 +2166,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231012061641
+      houdini: 0.0.0-20231015042531
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       recast: 0.23.4
@@ -2191,8 +2176,8 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20231012061641:
-    resolution: {integrity: sha512-fM5j0vkiuzFyQEQU10BKMio2uu6oPVQ0c1+6SDfu/qy3s/dC8FJIV4UHyGDjMkNjotbROUh0yT8+uXiL3O5TUA==}
+  /houdini@0.0.0-20231015042531:
+    resolution: {integrity: sha512-WxAvjI4ayaD8o6i26ANVRnHxCdbflQmjwCnQ3gkT0DIh5aZ9VYa/K+HEMYjtJivQ6Urz+ByAFnRxmLVY4fTR5w==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.0
@@ -2250,6 +2235,10 @@ packages:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
+    dev: false
+
+  /import-meta-resolve@3.0.0:
+    resolution: {integrity: sha512-4IwhLhNNA8yy445rPjD/lWh++7hMDOml2eHtd58eG7h+qK3EryMuuRbsHGPikCoAgIkkDnckKfWSk2iDla/ejg==}
     dev: false
 
   /inflight@1.0.6:
@@ -2335,10 +2324,6 @@ packages:
 
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
-    dev: false
-
-  /itty-router@4.0.23:
-    resolution: {integrity: sha512-tP1NI8PVK43vWlBnIPqj47ni5FDSczFviA4wgBznscndo8lEvBA+pO3DD1rNbIQPcZhprr775iUTunyGvQMcBw==}
     dev: false
 
   /js-tokens@4.0.0:
@@ -2469,12 +2454,6 @@ packages:
   /mime@1.6.0:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
-    hasBin: true
-    dev: false
-
-  /mime@3.0.0:
-    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
-    engines: {node: '>=10.0.0'}
     hasBin: true
     dev: false
 
