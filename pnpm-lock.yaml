@@ -47,14 +47,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20231015042531
-    version: 0.0.0-20231015042531
+    specifier: 0.0.0-20231015213617
+    version: 0.0.0-20231015213617
   houdini-adapter-auto:
-    specifier: 0.0.0-20231015042531
-    version: 0.0.0-20231015042531
+    specifier: 0.0.0-20231015213617
+    version: 0.0.0-20231015213617
   houdini-react:
-    specifier: 0.0.0-20231015042531
-    version: 0.0.0-20231015042531
+    specifier: 0.0.0-20231015213617
+    version: 0.0.0-20231015213617
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -906,10 +906,12 @@ packages:
 
   /@kitql/helper@0.5.0:
     resolution: {integrity: sha512-qTDsv8qmbvSyZLb75hE9N4AnmZHtCi8JxgHYAj4dbgViEjs6HVYJKqHabGR7rZCAVQj7LwWu+cTfh52QhlNMcg==}
+    deprecated: It was renamed to @kitql/helpers, should be better!
     dev: false
 
   /@kitql/helper@0.6.1:
     resolution: {integrity: sha512-jHl1YHItwOI8Z0h4kvx5LaJjcjY4zbmgSZVajWaGanCmbBKYphVP3UoNHDhs5944Ar7fJ/L7MNSdIINBhurIOA==}
+    deprecated: It was renamed to @kitql/helpers, should be better!
     dependencies:
       safe-stable-stringify: 2.4.3
     dev: false
@@ -2145,19 +2147,18 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /houdini-adapter-auto@0.0.0-20231015042531:
-    resolution: {integrity: sha512-d53CsIY9FH5VxWHAoJq6DoXHFPfVPqkA0jIRM9+jJBluLeG8qI96gnIqAeloH98Qy6ZI25l7vqLvaU8eY5naMQ==}
+  /houdini-adapter-auto@0.0.0-20231015213617:
+    resolution: {integrity: sha512-b7Js+MRwLQoFI1GQHiychyyJgF/eePidabmkckEX/WtrV9ZwkKlq3ESLwq7BZrxSG1a0P8TOFtjw+8pQXjB5Bg==}
     dependencies:
-      houdini: 0.0.0-20231015042531
+      houdini: 0.0.0-20231015213617
       import-meta-resolve: 3.0.0
     dev: false
 
-  /houdini-react@0.0.0-20231015042531:
-    resolution: {integrity: sha512-0E9jq6e6HUDjT6GHg0mSjBdgkwvF2ONjBm6ByZzRJgwLG4zzp+lnjPdVaah9JydtY/OSVBa3F/S3Bk/pAznm6g==}
+  /houdini-react@0.0.0-20231015213617:
+    resolution: {integrity: sha512-ZQzhZWuQoIEOY1zxVeXNiXpK7Bg4Nz502RO86YxfuR0VtZYX0Rqb31xv4k3UWq6D6fjHnNVxULZGAE1mtkHK0w==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
-      '@types/react': 18.2.28
       '@whatwg-node/server': 0.9.14
       cookie-parser: 1.4.6
       cookie-session: 2.0.0
@@ -2166,7 +2167,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231015042531
+      houdini: 0.0.0-20231015213617
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       recast: 0.23.4
@@ -2176,12 +2177,13 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20231015042531:
-    resolution: {integrity: sha512-WxAvjI4ayaD8o6i26ANVRnHxCdbflQmjwCnQ3gkT0DIh5aZ9VYa/K+HEMYjtJivQ6Urz+ByAFnRxmLVY4fTR5w==}
+  /houdini@0.0.0-20231015213617:
+    resolution: {integrity: sha512-ZqRVrOwdWfnGmOzk6+YT1DtrmML0BriFKPvUKwdpn5HzT5xU0yUX1uanxqTJsOn1XR4CORVYq5+nhuWVZ/9z4Q==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.0
       '@clack/prompts': 0.6.3
+      '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
       '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
       '@kitql/helper': 0.5.0
       '@types/estree': 1.0.2
